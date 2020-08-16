@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>login form</title>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="">
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body{
+			    background-image:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.1)),url('form/background2.jpg');
+				height: 100vh;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+				margin: 0;
+				font-family: 'Ubuntu', sans-serif;
+				
+		}
+		.container{
+				background-color: rgba(0, 0, 0, 0.8);
+				border-radius: 7px;
+				overflow: hidden;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+				width: 393px;
+				max-width: 100%;
+				
+			}
+			.header{
+				text-align: center;
+				padding: 20px; 
+				background-color: #c7bfbf;
+				background-color: #ff1b1b;*/
+			
+                color: black;
+
+
+
+			}
+			.header h2{
+				margin: 0;
+				font-size: 30px;
+				color: white;
+
+
+			}
+			.main-form{
+				color: white;
+				padding: 30px 40px;
+			}
+			.form{
+				padding-bottom: 20px;
+				margin-bottom: 10px;
+				position: relative;
+			}
+			.form1{
+				margin-bottom: 0px;
+				padding-bottom: 12px;
+			}
+			
+			
+			.form input{
+				border: 2px solid #f0f0f0;
+				border-radius: 4px;
+				font-family: inherit;
+				width: 100%;
+				padding: 12px;
+				display: block;
+				font-size: 14px;
+			}
+			.form i{
+				position: absolute;
+				top: 28px;
+				right: 316px;
+				
+			}
+			.end-point{
+				    margin-left: 6px;
+                    font-size: 13px;
+			}
+			.end-point a{
+				    margin-left: 64px;
+				    color: white;
+			}
+			.end-point a:hover{
+				color: blue;
+			}
+			.button{
+				margin-top: 30px;
+			}
+			button{
+				width: 100%;
+				font-family: inherit;
+				font-size: 18px;
+				padding: 10px;
+				border-radius: 7px;
+				
+				box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+				background-color: rgba(0, 0, 0, 0.8);
+				cursor: pointer;
+				color: white;
+				outline: none;
+			}
+			button:hover{
+				background-color: #655c59;
+				color: white;
+			}
+			p{
+				margin-top: 12px;
+				margin-left: 5px;
+				font-size: 14px;
+
+			}
+			.social-media{
+
+			margin-top: 12px;
+            margin-left: 12px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+			}
+			.fa-facebook{
+				background: #034ce6;
+				  color: white;
+				  border-radius:50%;
+				  padding: 12px;
+			}
+			.fa-twitter{
+				background: #0878ce;
+				  color: white;
+				  border-radius:50%;
+				  padding: 12px;
+
+			}
+			.fa-youtube{
+				background: #d20606;
+				  color: white;
+				  border-radius:50%;
+				  padding: 12px;
+			}
+			.fa-instagram{
+				background: #d0092f;
+				  color: white;
+				  border-radius:50%;
+				  padding: 12px;
+			}
+			.fab:hover{
+				 opacity: 0.7;
+				 cursor: pointer;
+			}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Login Page</h2>
+			<div><i style='font-size:48px;color:white;background-color: black;border-radius:50%;' class='fas'>&#xf2bd;</i></div>
+		</div>
+		<form action="" class="main-form">
+			<div class="form">
+				<i style='font-size:24px;color:white' class='fas'>&#xf406;</i>
+			<label for="">Username</label><input type="text" placeholder="Enter your username" autocomplete="off">
+			</div>
+			<div class="form form1">
+			<i style="font-size:24px; color: white" class="fa">&#xf023;</i>
+			<label for="">Password</label><input type="password" placeholder="Enter your password" autocomplete="off">
+			</div>
+			<div class="end-point">
+			<input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+			<a href="#">Forgot Password?</a>
+			</div>
+			<div class="button"><button>Submit</button></div>
+			<p>Follow Us:</p>
+			<div class="social-media">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>
